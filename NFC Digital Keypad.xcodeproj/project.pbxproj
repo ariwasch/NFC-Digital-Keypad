@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9541C25723C29F3D004E231D /* instructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9541C25623C29F3D004E231D /* instructions.swift */; };
+		9541C25923C37F5D004E231D /* NFC-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9541C25823C37F5D004E231D /* NFC-icon.png */; };
 		9564D17023B2561200B26F21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9564D16F23B2561200B26F21 /* AppDelegate.swift */; };
 		9564D17223B2561200B26F21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9564D17123B2561200B26F21 /* SceneDelegate.swift */; };
 		9564D17423B2561200B26F21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9564D17323B2561200B26F21 /* ViewController.swift */; };
@@ -16,6 +18,9 @@
 		9564D17F23B2561300B26F21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9564D17D23B2561300B26F21 /* LaunchScreen.storyboard */; };
 		9564D18A23B2561400B26F21 /* NFC_Digital_KeypadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9564D18923B2561400B26F21 /* NFC_Digital_KeypadTests.swift */; };
 		9564D19523B2561400B26F21 /* NFC_Digital_KeypadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9564D19423B2561400B26F21 /* NFC_Digital_KeypadUITests.swift */; };
+		9564D1A323B25B2E00B26F21 /* NFC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9564D1A223B25B2E00B26F21 /* NFC.swift */; };
+		9564D1A623B28E1900B26F21 /* Console.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9564D1A523B28E1900B26F21 /* Console.swift */; };
+		9564D1A823B2906E00B26F21 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9564D1A723B2906E00B26F21 /* PageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9564D16C23B2561200B26F21 /* NFC Digital Keypad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NFC Digital Keypad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9541C25623C29F3D004E231D /* instructions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instructions.swift; sourceTree = "<group>"; };
+		9541C25823C37F5D004E231D /* NFC-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "NFC-icon.png"; path = "Assets.xcassets/AppIcon.appiconset/NFC-icon.png"; sourceTree = "<group>"; };
+		9564D16C23B2561200B26F21 /* Digital Keypad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digital Keypad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9564D16F23B2561200B26F21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9564D17123B2561200B26F21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9564D17323B2561200B26F21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +58,10 @@
 		9564D19023B2561400B26F21 /* NFC Digital KeypadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NFC Digital KeypadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9564D19423B2561400B26F21 /* NFC_Digital_KeypadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFC_Digital_KeypadUITests.swift; sourceTree = "<group>"; };
 		9564D19623B2561400B26F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9564D1A223B25B2E00B26F21 /* NFC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFC.swift; sourceTree = "<group>"; };
+		9564D1A423B2695600B26F21 /* NFC Digital Keypad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "NFC Digital Keypad.entitlements"; sourceTree = "<group>"; };
+		9564D1A523B28E1900B26F21 /* Console.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Console.swift; sourceTree = "<group>"; };
+		9564D1A723B2906E00B26F21 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +102,7 @@
 		9564D16D23B2561200B26F21 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9564D16C23B2561200B26F21 /* NFC Digital Keypad.app */,
+				9564D16C23B2561200B26F21 /* Digital Keypad.app */,
 				9564D18523B2561400B26F21 /* NFC Digital KeypadTests.xctest */,
 				9564D19023B2561400B26F21 /* NFC Digital KeypadUITests.xctest */,
 			);
@@ -101,13 +112,19 @@
 		9564D16E23B2561200B26F21 /* NFC Digital Keypad */ = {
 			isa = PBXGroup;
 			children = (
+				9564D1A423B2695600B26F21 /* NFC Digital Keypad.entitlements */,
 				9564D16F23B2561200B26F21 /* AppDelegate.swift */,
 				9564D17123B2561200B26F21 /* SceneDelegate.swift */,
+				9564D1A523B28E1900B26F21 /* Console.swift */,
+				9564D1A723B2906E00B26F21 /* PageViewController.swift */,
 				9564D17323B2561200B26F21 /* ViewController.swift */,
+				9564D1A223B25B2E00B26F21 /* NFC.swift */,
 				9564D17523B2561200B26F21 /* Main.storyboard */,
+				9541C25623C29F3D004E231D /* instructions.swift */,
 				9564D17B23B2561300B26F21 /* Assets.xcassets */,
 				9564D17D23B2561300B26F21 /* LaunchScreen.storyboard */,
 				9564D18023B2561300B26F21 /* Info.plist */,
+				9541C25823C37F5D004E231D /* NFC-icon.png */,
 				9564D17823B2561200B26F21 /* NFC_Digital_Keypad.xcdatamodeld */,
 			);
 			path = "NFC Digital Keypad";
@@ -148,7 +165,7 @@
 			);
 			name = "NFC Digital Keypad";
 			productName = "NFC Digital Keypad";
-			productReference = 9564D16C23B2561200B26F21 /* NFC Digital Keypad.app */;
+			productReference = 9564D16C23B2561200B26F21 /* Digital Keypad.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9564D18423B2561400B26F21 /* NFC Digital KeypadTests */ = {
@@ -238,6 +255,7 @@
 				9564D17F23B2561300B26F21 /* LaunchScreen.storyboard in Resources */,
 				9564D17C23B2561300B26F21 /* Assets.xcassets in Resources */,
 				9564D17723B2561200B26F21 /* Main.storyboard in Resources */,
+				9541C25923C37F5D004E231D /* NFC-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +281,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9564D17A23B2561200B26F21 /* NFC_Digital_Keypad.xcdatamodeld in Sources */,
+				9564D1A823B2906E00B26F21 /* PageViewController.swift in Sources */,
+				9541C25723C29F3D004E231D /* instructions.swift in Sources */,
+				9564D1A623B28E1900B26F21 /* Console.swift in Sources */,
 				9564D17423B2561200B26F21 /* ViewController.swift in Sources */,
+				9564D1A323B25B2E00B26F21 /* NFC.swift in Sources */,
 				9564D17023B2561200B26F21 /* AppDelegate.swift in Sources */,
 				9564D17223B2561200B26F21 /* SceneDelegate.swift in Sources */,
 			);
@@ -438,17 +460,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "NFC Digital Keypad/NFC Digital Keypad.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3K6Q4C6RYZ;
 				INFOPLIST_FILE = "NFC Digital Keypad/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Ari-Wasch.NFC-Digital-Keypad";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Digital Keypad";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -456,17 +481,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "NFC Digital Keypad/NFC Digital Keypad.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3K6Q4C6RYZ;
 				INFOPLIST_FILE = "NFC Digital Keypad/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Ari-Wasch.NFC-Digital-Keypad";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Digital Keypad";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
