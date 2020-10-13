@@ -10,7 +10,7 @@ import UIKit
 import CoreNFC
 class ViewController: UIViewController {
     var result: String = ""
-    var done: Bool = false
+    var done: Bool = false 
     var write: Bool = false
     public var recordText: String = ""
     public var recordText2: String = ""
